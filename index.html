@@ -20,7 +20,7 @@
   <div class="container">
 
 <table>
-
+<tbody>
 <tr>
 <th>Název</th>
 <th>..Stav..</th>
@@ -322,10 +322,24 @@ známka</th>
 <td><input disabled type="number" value="40"  name="cena"></td>
 <td><input disabled type="number"  name="vysledek"></td>
 </tr>
+</tbody>
+<tfoot>
+</tfoot>
 </table>
 
-<p><button onclick="deleteItems()">Vymazat</button></p>
-<p><button onclick="swap()">Zkopíruj</button></p>
+<footer>
+<button class="btn zelena" onclick="swap()">Zkopíruj</button>
+<button class="btn cervena" onclick="deleteItems()">Vymazat</button>
+</br>
+</br>
+</br>
+<ul>
+  <li><a class="active" href="index.html">Recepce</a></li>
+  <li><a href="bar.html">Bar</a></li>
+  <li><a href="bufet.html">Bufet</a></li>
+  <li><a href="zbozi.html">Zboží</a></li>
+</ul>
+</footer>
 </div>
     <script src="js/script.js"></script>
     
