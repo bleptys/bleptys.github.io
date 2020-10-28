@@ -82,6 +82,13 @@ li a:hover:not(.active) {
   color: red;
 }
 
+/* Šedá */
+.seda {
+  float: right;
+  border-color: #C1D5AE;
+  color: grey;
+}
+
 .danger:hover {
   background: #f44336;
   color: white;
